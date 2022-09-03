@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 text_tagged_list = []
 reason_tagged_list = []
 
-#nltk.download('stopwords')
-#nltk.download('punkt')
-#nltk.download('averaged_perceptron_tagger')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 stop_words = set(stopwords.words('english')) ## ENGLISH STOP-WORD SET
 regex = re.compile(r'[\n\r\t]') ## TO REMOVE UNNECESSARY CHARACTERS LIKE SPACE,TABS,etc
