@@ -10,3 +10,6 @@ Given a text and a reason, predict if text satisfies the reason. You can use the
     - label:
         - 0: text and reason **do not** match with each other
         - 1: text and reason match with each other
+
+Suggestion for improvement of model is highly welcomed.
+Thank You
